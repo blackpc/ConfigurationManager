@@ -25,8 +25,8 @@ class ServerConfiguration
   2. Create configurations file (in our case "app.cfg"):
 <pre>
 [Server]
-Name      = Http proxy host // You can add some comments
-Ip		  = 192.168.137.128 
+Name      = Http proxy host
+Ip		  = 192.168.137.128 // You can add some comments
 Port	  = 8080
 Version	  = 1.1
 </pre>  
