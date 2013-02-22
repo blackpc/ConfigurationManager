@@ -6,6 +6,7 @@ Provides a comfortable way to read configurations file into a custom class
 Usage
 ====================
   1. Create class which will be filled with data from configurations file:
+```csharp
 <pre>
 [ConfigurationSection("Server")]
 class ServerConfiguration
@@ -23,6 +24,7 @@ class ServerConfiguration
   public float ProtocolVersion { get; set; }
 }
 </pre>
+```
   2. Create configurations file (e.g. app.cfg):
 <pre>
 [Server]
