@@ -46,7 +46,8 @@ Version	  = 1.1
     Console.WriteLine(config.ProtocolVersion);
 ```
 
-
+### License
+License: [The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.php)
 
 
 
