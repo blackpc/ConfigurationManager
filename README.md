@@ -10,17 +10,17 @@ Usage
 [ConfigurationSection("Server")]
 class ServerConfiguration
 {
-  [ConfigurationProperty]
-  public string Name { get; set; }
-
-  [ConfigurationProperty]
-  public string Ip { get; set; }
-
-  [ConfigurationProperty]
-  public int Port { get; set; }
-
-  [ConfigurationProperty("Version")]
-  public float ProtocolVersion { get; set; }
+    [ConfigurationProperty]
+    public string Name { get; set; }
+  
+    [ConfigurationProperty]
+    public string Ip { get; set; }
+  
+    [ConfigurationProperty]
+    public int Port { get; set; }
+  
+    [ConfigurationProperty("Version")]
+    public float ProtocolVersion { get; set; }
 }
 ```
   2. Create configurations file (e.g. app.cfg):
