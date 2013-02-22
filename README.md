@@ -47,7 +47,8 @@ Version	  = 1.1
 ```
 
 ### License
-License: [The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.php)
+<hr />
+[The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.php)
 
 
 
