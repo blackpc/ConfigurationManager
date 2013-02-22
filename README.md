@@ -38,7 +38,7 @@ Version	  = 1.1
 ```csharp
     ServerConfiguration config = ConfigurationManager.GetClass<ServerConfiguration>("Application");
 ```
-  5. Now you can access to the values from configurations file via the properties of your class:
+  5. Now you can access values from configurations file via the properties of your class:
 ```csharp
     Console.WriteLine(config.Name);
     Console.WriteLine(config.Ip);
