@@ -52,6 +52,8 @@ Version	  = 1.1
 [The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.php)
 
 
-
+### ToDo
+<hr />
+Configuration save ability
 
 
