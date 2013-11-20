@@ -31,15 +31,15 @@ Port	  = 8080
 Version	  = 1.1
 </pre>  
   3. Load configurations file:
-```csharp
+```
     ConfigurationManager.Load("Application", "app.cfg");
 ```
   4. Get configurations:
-```csharp
+```
     ServerConfiguration config = ConfigurationManager.GetClass<ServerConfiguration>("Application");
 ```
   5. Now you can access values from configurations file via the properties of your class:
-```csharp
+```
     Console.WriteLine(config.Name);
     Console.WriteLine(config.Ip);
     Console.WriteLine(config.Port);
